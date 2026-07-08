@@ -3,6 +3,9 @@ window.config = {
   extensions: [],
   modes: [],
   showStudyList: true,
+  investigationalUseDialog: {
+    option: 'never',
+  },
   dataSources: [
     {
       namespace: '@ohif/extension-default.dataSourcesModule.dicomweb',
